@@ -27,7 +27,7 @@ function Classcom({heading,image,islive,content,time}) {
         {/* </div> */}
 
         <div className="lower">
-          {islive == "true" ? (
+          {islive === "true" ? (
             <button type="button" className="btn btn-primary  ">
               JOIN NOW
             </button>
