@@ -56,13 +56,49 @@ function Home() {
            */}
           <h1 className="heading">Upcoming Classes</h1>
           <p className="date">TODAY</p>
-          <Classcom />
-          <Classcom />
+          <Classcom
+            islive="true"
+            image="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
+            heading="JEE ADVANCED"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam. lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam."
+            time="4.00-6.00 PM"
+          />
+          <Classcom
+            islive="false"
+            image="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
+            heading="JEE ADVANCED"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam. lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam."
+            time="8.00-9.00 PM"
+          />
           <p className="date">16/09/21</p>
-          <Classcom />
-          <Classcom />
-          <Classcom />
-          <Classcom />
+          <Classcom
+            islive="false"
+            image="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
+            heading="JEE ADVANCED"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam. lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam."
+            time="4.00-6.00 PM"
+          />
+          <Classcom
+            islive="false"
+            image="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
+            heading="JEE ADVANCED"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam. lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam."
+            time="8.00-9.00 PM"
+          />
+          <Classcom
+            islive="false"
+            image="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
+            heading="JEE ADVANCED"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam. lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam."
+            time="4.00-6.00 PM"
+          />
+          <Classcom
+            islive="false"
+            image="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
+            heading="JEE ADVANCED"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam. lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam."
+            time="8.00-9.00 PM"
+          />
         </div>
       </div>
       <div className="right">
@@ -74,11 +110,26 @@ function Home() {
         <div className="rightlowerhalf">
           {/* <h1>right lower half</h1> */}
           <h4 className="heading">My Courses</h4>
-          <Ccard />
-          <Ccard />
-          <Ccard />
-          <Ccard />
-          <Ccard />
+          <Ccard
+            heading="vertika"
+            image="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
+          />
+          <Ccard
+            heading="vidisha"
+            image="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
+          />
+          <Ccard
+            heading="rahul"
+            image="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
+          />
+          <Ccard
+            heading="vertika"
+            image="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
+          />
+          <Ccard
+            heading="vertika"
+            image="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
+          />
         </div>
       </div>
     </div>
