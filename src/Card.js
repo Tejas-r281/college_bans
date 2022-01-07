@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.css";
-import Ccard from "./Ccard";
+// import Ccard from "./Ccard";
 
 function Card() {
   return (

@@ -1,5 +1,5 @@
-import react from "react";
-import classlist from "./Class";
+// import react from "react";
+// import classlist from "./Class";
 import "./Classcom.css";
 
 function Classcom({heading,image,islive,content,time}) {
