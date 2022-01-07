@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="header">
       <nav className="navbar navbar-expand-lg navbar-light">
-        <a className="navbar-brand header__logo" href="#">
+        <a className="navbar-brand header__logo">
           <span className="uppers">LOREM</span>
           <br />
           <span className="lowers">IPSUM</span>
@@ -28,22 +28,22 @@ function Header() {
         >
           <ul className="navbar-nav header__ul mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link">
                 About Us <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" >
                 Contact Us
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link">
                 Courses
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" >
                 Mentors
               </a>
             </li>
@@ -58,7 +58,7 @@ function Header() {
           </form>
 
           <nav className="navbar navbar-light bg-white">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand">
               <img
                 className="header__img"
                 src="https://media-exp1.licdn.com/dms/image/C5603AQGtcVvdMAjlKA/profile-displayphoto-shrink_200_200/0/1636784088467?e=1644451200&v=beta&t=sll9xLmIWjHKPTEBqpntCv9Cch7OHh4SeKJwJz0_coA"
