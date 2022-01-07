@@ -4,11 +4,11 @@ import "./Header.css";
 function Header() {
   return (
     <div className="header">
-      <nav className="navbar navbar-expand-lg navbar-light bg-white">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <a className="navbar-brand header__logo" href="#">
-          <span className="upper">LOREM</span>
+          <span className="uppers">LOREM</span>
           <br />
-          <span className="lower">IPSUM</span>
+          <span className="lowers">IPSUM</span>
         </a>
         <button
           className="navbar-toggler"

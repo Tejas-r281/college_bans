@@ -2,8 +2,15 @@
 {
   /* background-color:red; */
   /* z-index: 1; */
+  /* background:linear-gradient(to bottom, #fd7e14, #f5ece0); */
 }
+.all
+{
 
+   /* background:linear-gradient(to bottom, #fd7e14, #f5ece0); */
+   /* margin-top:-80px; */
+   /* z-index: -1; */
+}
 
 .App {
   text-align: center;
